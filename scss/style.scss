@@ -570,7 +570,6 @@ hr {
     border: 2px solid #fff;
     padding: 10px;
     font-size: 22px;
-    z-index: 999;
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -644,10 +643,6 @@ hr {
         padding: 20px;
     }
 
-    .toggle-button {
-        display: block;
-    }
-
     .overlay.active {
         display: block;
     }
@@ -659,23 +654,12 @@ hr {
         font-size: 26px;
     }
 }
-@media (max-width: 576px) {
-   
 
-    .toggle-button {
-        left: 50px;
-    }
-   
-
-   
-}
 
 @media (max-width: 380px) {
    
 
-    .toggle-button {
-        left: 50px;
-    }
+  
     .sidebar {
         padding-top: 110px;
     }
