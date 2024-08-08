@@ -559,10 +559,10 @@ hr {
 }
 
 /* New styles for responsiveness */
-// .toggle-button.hidden {
-//     opacity: 0;
-//     pointer-events: none;
-// }
+.toggle-button.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
 .toggle-button {
     display: none;
     background-color: #6c8d3c;
@@ -647,7 +647,7 @@ hr {
     .toggle-button {
         display: block;
     }
-    
+
     .overlay.active {
         display: block;
     }
