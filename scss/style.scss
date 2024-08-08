@@ -564,6 +564,7 @@ hr {
 //     pointer-events: none;
 // }
 .toggle-button {
+    display: none;
     background-color: #6c8d3c;
     color: #fff;
     border: 2px solid #fff;
@@ -623,6 +624,9 @@ hr {
         z-index: 2000;
         border-radius: 0px;
         padding: 120px 30px 30px 30px;
+    }
+    .toggle-button {
+        display: block;
     }
     .sidebar h3 {
         font-size: 26px;
