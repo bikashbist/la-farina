@@ -647,7 +647,10 @@ hr {
     .toggle-button {
         display: block;
     }
-
+    .toggle-button.hidden {
+        opacity: 1;
+        pointer-events: auto;
+    }
     .overlay.active {
         display: block;
     }
