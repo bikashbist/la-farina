@@ -564,7 +564,7 @@ hr {
 //     pointer-events: none;
 // }
 .toggle-button {
-    display: none;
+    display: none!important;
     background-color: #6c8d3c;
     color: #fff;
     border: 2px solid #fff;
@@ -625,7 +625,7 @@ hr {
     }
    
     .toggle-button {
-       display: block;
+       display: block!important;
         position: fixed; /* Ensure it stays in place */
         top: 30px;       /* Adjust as needed */
         left: 30px;     /* Adjust as needed */
