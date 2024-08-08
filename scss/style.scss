@@ -619,12 +619,17 @@ hr {
         left: -250px;
         margin: 0;
         transition: left 0.3s ease;
-        z-index: 2000;
+        z-index: 1000;
         border-radius: 0px;
         padding: 120px 30px 30px 30px;
     }
+   
     .toggle-button {
-        display: block;
+       display: block;
+        position: fixed; /* Ensure it stays in place */
+        top: 30px;       /* Adjust as needed */
+        left: 30px;     /* Adjust as needed */
+        z-index: 1001;   /* Higher than sidebar */
     }
     .sidebar h3 {
         font-size: 26px;
