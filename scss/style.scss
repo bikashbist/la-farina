@@ -564,23 +564,20 @@ hr {
 //     pointer-events: none;
 // }
 .toggle-button {
-    display: block;
     background-color: #6c8d3c;
-    color: white;
-    border: none;
+    color: #fff;
+    border: 2px solid #fff;
     padding: 10px;
-    font-size: 18px;
-    position: fixed;
+    font-size: 22px;
     top: 30px;
     left: 220px;
-    z-index: 1001;
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    font-size: 22px;
-    color: #fff;
-    border: 2px solid #fff;
-    transition: opacity 0.5s;
+    text-align: center;
+    line-height: 60px;  
+    touch-action: manipulation; 
+
 }
 
 .overlay {
