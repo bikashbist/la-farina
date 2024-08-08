@@ -559,12 +559,12 @@ hr {
 }
 
 /* New styles for responsiveness */
-.toggle-button.hidden {
-    opacity: 0;
-    pointer-events: none;
-}
+// .toggle-button.hidden {
+//     opacity: 0;
+//     pointer-events: none;
+// }
 .toggle-button {
-    display: none;
+    display: block;
     background-color: #6c8d3c;
     color: white;
     border: none;
