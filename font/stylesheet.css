@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'PosterizerKGRough';
+    src: url('PosterizerKGRough.eot');
+    src: local('☞Posterizer KG Rough'), local('PosterizerKGRough'),
+        url('PosterizerKGRough.eot?#iefix') format('embedded-opentype'),
+        url('PosterizerKGRough.woff2') format('woff2'),
+        url('PosterizerKGRough.woff') format('woff'),
+        url('PosterizerKGRough.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
